@@ -1,0 +1,145 @@
+
+/*screen width 0px-500px*/
+
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+body{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    color: white;
+    background-color: black;
+}
+
+header{
+    font-size: large;
+    display: grid;
+    justify-content: center;
+}
+
+footer{
+    padding: 3em;
+    margin-top: 1.5em;
+    grid-area: footer;
+}
+
+.head{
+    grid-area: head;
+}
+
+.navs{
+    grid-area: navs;
+}
+
+.navi{
+    grid-area: navi;
+}
+
+main{
+    grid-area: main;
+}
+
+footer{
+    grid-area: footer;
+}
+
+.grilla{
+    display: grid;
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;
+    gap: 20px;
+    grid-template-areas: 
+    " navs "
+    " head "
+    " main "
+    " footer "
+    " navi ";
+}
+
+.header__index{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    gap: 15px;
+}
+
+.imagen__index{
+    width: 300px;
+    height: 250px;
+    margin-top: 15px;
+}
+
+.titulo__index--ghostpell{
+padding-right: 30%;
+}
+
+
+.titulo__index--presents{
+    padding-right: 15%;
+    color: grey;
+}
+
+.titulo__index--olgakorbut{
+    font-size: 50px ;
+    color: red;
+}
+
+/*listen*/
+
+.content__listen, .main__olgakorbut{
+    padding-top: 3em;
+    margin-right: 10%;
+    margin-left: 10%;
+    font-size: larger;
+}
+
+.titulo__listen--olgakorbut{
+    padding-top: 3em;
+    padding-bottom: 3em;
+}
+
+
+
+/*listen*/
+
+/*media*/
+
+.main__media{
+    margin-right: 10%;
+    margin-left: 10%;
+    text-align: left;
+}
+
+.espaciado{
+    padding-top: 2em;
+}
+
+/*media*/
+/*OlgaKorbut*/
+/*OlgaKorbut*/
+
+/*BuyNow*/
+
+.content__olgakorbut{
+    display: flex;
+    flex-direction: column;
+}
+
+.imagen__buynow{
+    height: 300px;
+    width: 250px;
+}
+
+
+@media (min-width:500px){
+}
+@media (min-width:768px){
+
+}  
+@media (min-width:1024px){
+
+}
