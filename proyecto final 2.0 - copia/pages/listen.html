@@ -5,7 +5,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Listen</title>
+    <title>listen</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="../css/style.css">
 </head>
 
@@ -15,61 +17,71 @@
 
     <div class="grilla">
 
-        <nav class="navs"><a href="../index.html">NAVS</a></nav>
 
 
         <header>
-            <div class="head border">
+            <div class="head espaciado__listen head__listen">
                 <!--el video en un futuro deberia de poder cambiar con los botones, asi como el titulo y el epigrafe, pero actualmente lo unico que pude hacer es posicionarlo-->
                 <iframe width="560" height="315" src="https://www.youtube.com/embed/CpYhB58L4PY"
                     title="YouTube video player" frameborder="0"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                     allowfullscreen></iframe>
 
-                <div class="botones__video--listen border">
-                    <button type="button">next</button>
-                    <button type="button">previous</button>
+                <div class="btn-group" role="group" aria-label="Basic example">
+                    <button type="button" class="btn btn-secondary">previous</button>
+                    <button type="button" class="btn btn-dark">stop</button>
+                    <button type="button" class="btn btn-secondary">next</button>
                 </div>
-
             </div>
 
         </header>
 
-        <div class="main content__listen border">
+        <div class="main content__listen ">
 
             <h1 class="titulo__listen--olgakorbut">
                 Olga Korbut
             </h1>
 
-
             <p class="parrafo__listen">Ghostpell's Olga Kórbut es la introducción del álbum debut en solitario de
                 Ghostpell,
                 Ghostpell's Olga Kórbut,
-                una breve descripción de su contexto que trata de adentrar al oyente en este viaje. Hasta hace muy poco,
+                una breve descripción de su contexto que trata de adentrar al oyente en este viaje. Hasta hace muy
+                poco,
                 los
                 cuentos pasaban de una generación a otra únicamente mediante la transmisión oral. Los primeros
                 escritores de
-                cuentos añadían su nombre delante del título del cuento para poner de manifiesto que la suya no era más
+                cuentos añadían su nombre delante del título del cuento para poner de manifiesto que la suya no era
+                más
                 que una
-                de las versiones del mismo. Ghostpell's Olga Kórbut es una historia escrita y narrada por Ghostpell, es
+                de las versiones del mismo. Ghostpell's Olga Kórbut es una historia escrita y narrada por Ghostpell,
+                es
                 por eso
-                que su título comienza con el nombre del narrador, el objetivo es desligarse del contenido real de la
+                que su título comienza con el nombre del narrador, el objetivo es desligarse del contenido real de
+                la
                 biografía
-                del personaje. Esta obra utiliza el soporte fonográfico en lugar del escrito, pero el título encierra la
+                del personaje. Esta obra utiliza el soporte fonográfico en lugar del escrito, pero el título
+                encierra la
                 voluntad de mantener intacta la intención del escritor de cuentos.
             </p>
+
         </div>
 
 </body>
 
 <footer>
-    <div class="footer border">
+    <div class="footer ">
         <p>ghostpell todos los derechos reservados</p>
     </div>
 </footer>
 
-<nav class="navi"><a href="./media.html">NAVI</a></nav>
+<nav class="navi"><a href="./media.html"><img class="icono__nav" src="../img/icononav.png"
+            alt="redireccion hacia media "></a></nav>
 
 </div>
+
+<script>
+    AOS.init();
+</script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 
 </html>

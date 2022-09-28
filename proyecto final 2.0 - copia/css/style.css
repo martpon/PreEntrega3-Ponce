@@ -6,6 +6,10 @@
     padding: 0%;
 }
 
+footer{
+    font-size: small;
+}
+
 body{
     text-align: center;
     display: flex;
@@ -33,6 +37,10 @@ footer{
 
 .navs{
     grid-area: navs;
+}
+
+.icono__nav{
+    width: 100px;
 }
 
 .navi{
@@ -90,6 +98,11 @@ padding-right: 30%;
 
 /*listen*/
 
+.titulo__listen--olgakorbut{
+    color: red;
+    font-size: 3em;
+}
+
 .content__listen, .main__olgakorbut{
     padding-top: 3em;
     margin-right: 10%;
@@ -98,10 +111,25 @@ padding-right: 30%;
 }
 
 .titulo__listen--olgakorbut{
-    padding-top: 3em;
+    padding-top: 1em;
     padding-bottom: 3em;
 }
 
+.parrafo__listen{
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.espaciado__listen{
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+
+.head__listen{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
 
 
 /*listen*/
@@ -136,10 +164,29 @@ padding-right: 30%;
 
 
 @media (min-width:500px){
+
 }
 @media (min-width:768px){
 
 }  
 @media (min-width:1024px){
+    .titulo__index--ghostpell{
+        font-size: 3cm;
+
+    }
+
+    .imagen__index{
+        width: 500px;
+        height: 500px;
+    }
+
+    .titulo__index--olgakorbut{
+        font-size: 2.5cm;
+    }
+
+    /*listen*/
+    .parrafo__listen{
+        font-size: xx-large;
+    }
 
 }
