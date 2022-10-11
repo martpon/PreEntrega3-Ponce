@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@300;600;700&family=Tiro+Devanagari+Hindi:ital@1&display=swap");
 * {
   margin: 0%;
   padding: 0%;
@@ -14,6 +15,22 @@ body {
   min-height: 100vh;
   color: white;
   background-color: black;
+}
+
+@media (min-width: 500px) {
+  nav img {
+    width: 2em;
+  }
+}
+@media (min-width: 750px) {
+  nav img {
+    width: 3em;
+  }
+}
+@media (min-width: 1024px) {
+  nav img {
+    width: 4em;
+  }
 }
 
 header {
@@ -57,7 +74,7 @@ footer {
   margin-top: 1.5em;
   margin-bottom: 1.5em;
   gap: 20px;
-  grid-template-areas: " navs " " head " " main " " footer " " navi ";
+  grid-template-areas: " head " " main " " footer " " navi ";
 }
 
 .index header {
@@ -294,10 +311,13 @@ footer {
   display: flex;
   flex-direction: column;
 }
+.buynow main img {
+  margin-top: 20%;
+}
 @media (min-width: 500px) {
   .buynow main img {
-    width: 150px;
-    height: 250px;
+    width: 250px;
+    height: 350px;
   }
   .buynow main a {
     font-size: 2em;
@@ -305,8 +325,8 @@ footer {
 }
 @media (min-width: 750px) {
   .buynow main img {
-    width: 250px;
-    height: 350px;
+    width: 350px;
+    height: 450px;
   }
   .buynow main a {
     font-size: 3em;
@@ -314,8 +334,8 @@ footer {
 }
 @media (min-width: 1024px) {
   .buynow main img {
-    width: 450px;
-    height: 550px;
+    width: 550px;
+    height: 650px;
   }
   .buynow main a {
     font-size: 4em;

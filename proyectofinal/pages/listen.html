@@ -5,12 +5,15 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="keywords" content="HTML, MUSICA, GHOSTPELL, OLGAKORBUT">
-    <meta name="description" content="Ghostpell disco Olgakorbut">
+    <meta name="description" content="Ghostpell disco Olgakorbut - escuchar el disco">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ghostpell - listen</title>
+    <!--link to bootstrap framework-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!--link to aos framework-->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"> 
+    
     <link rel="stylesheet" href="../css/style.css">
 </head>
 
@@ -345,16 +348,28 @@
         </div>
     </footer>
 
-    <nav class="navi"><a href="./media.html"><img class="icono__nav" src="../img/icononav.png"
-                alt="redireccion hacia media "></a></nav>
+    <div class="navi" data-aos-duration="5000" data-aos="fade-down">
+        
+        <!--por algun motivo el nav no aparece aunque si se clickea en el lugar de donde deberia de estar funciona-->
 
+        <nav>
+            <a href="./media.html">
+                <img class="icono__nav" src="../img/icononav.png" alt="redireccion pagina siguiente">
+            </a>
+        </nav>
+    
     </div>
 
 </body>
 
+<!--aos framework-->
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 <script>
     AOS.init();
 </script>
+
+
+<!--bootstrap framework-->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
     crossorigin="anonymous"></script>

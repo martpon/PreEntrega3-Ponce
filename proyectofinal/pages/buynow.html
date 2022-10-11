@@ -5,10 +5,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="keywords" content="HTML, MUSICA, GHOSTPELL, OLGAKORBUT">
-    <meta name="description" content="Ghostpell disco Olgakorbut">
+    <meta name="description" content="Ghostpell disco Olgakorbut - compra directa">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ghostpell - BuyNow</title>
     <link rel="stylesheet" href="../css/style.css">
+
+    <!--link to aos framework-->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 
 
@@ -35,12 +38,24 @@
             ghostpell todos los derechos reservados©
         </footer>
 
-        <nav class="navi"><a href="../index.html"><h2>Restart</h2></a></nav>
+        <div class="navi" data-aos-duration="5000" data-aos="fade-down">
+        
+            <nav>
+                <a href="../index.html">
+                    <img class="icono__nav" src="../img/icononav.png" alt="redireccion pagina siguiente">
+                </a>
+            </nav>
+        
+        </div>
 
     </div>
 
 </body>
 
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+  </script>
 
 
 </html>

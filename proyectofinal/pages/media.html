@@ -7,6 +7,7 @@
     <meta name="keywords" content="HTML, MUSICA, GHOSTPELL, OLGAKORBUT">
     <meta name="description" content="Ghostpell disco Olgakorbut">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="../css/style.css">
     <title>Ghostpell - Media</title>
 </head>
@@ -18,7 +19,7 @@
         <header class="head">
             <h1 >Media</h1>
         </header>
-    
+  
 
 
         <main class="main">
@@ -76,8 +77,21 @@
         ghostpell todos los derechos reservados
     </footer>
 
-    <nav class="navi"><a href="./olgakorbut.html"><img class="icono__nav" src="../img/icononav.png" alt="redireccion pagina siguiente"></a></nav>
+    <div class="navi" data-aos-duration="5000" data-aos="fade-down">
+        
+        <nav>
+            <a href="./olgakorbut.html">
+                <img class="icono__nav" src="../img/icononav.png" alt="redireccion pagina siguiente">
+            </a>
+        </nav>
+    
+    </div>
 
 </div>
+
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+  </script>
 
 </html>
