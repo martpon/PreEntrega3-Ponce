@@ -1,0 +1,79 @@
+.buynow{
+
+    main{
+        display: flex;
+        flex-direction: column;
+    
+    }
+
+    @media (min-width:500px) {
+
+        main{
+
+            img{
+
+                width: 150px;
+                height: 250px;
+
+            }
+
+            a{
+
+                font-size: 2em;
+
+            }
+
+
+        }
+
+
+    }
+
+    @media (min-width:750px) {
+
+        main{
+
+            img{
+
+                width: 250px;
+                height: 350px;
+
+            }
+
+            a{
+
+                font-size: 3em;
+                
+            }
+
+        }
+
+
+    }
+
+    @media (min-width:1024px) {
+
+        main{
+
+            img{
+
+                width: 450px;
+                height: 550px;
+
+            }
+
+            a{
+
+                font-size: 4em;
+
+            }
+
+        }
+
+
+    }
+
+
+
+}
+

@@ -1,0 +1,115 @@
+.media{
+
+    header{
+        h1{
+            color: red;
+        }
+    }
+
+
+
+    main{
+        margin-right: 10%;
+        margin-left: 10%;
+        text-align: left;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .espaciado{
+        padding-top: 2em;
+    }
+
+    h2{
+        font-size: xx-large;
+        padding-bottom: 10px;
+        color: grey;
+    }
+
+    p{
+        font-size: large;
+        padding-bottom: 20px;
+        padding-right: 4em;
+        padding-left: 4em;
+
+    }
+
+    @media (min-width:500px) {
+
+        header{
+            h1{
+                font-size: 3em;
+            }
+        }
+
+        main{
+            h2{
+
+                font-size: 2em;
+
+            }
+
+            p{
+
+                font-size: 1em;
+
+            }
+        }
+        
+
+    }
+
+    @media (min-width:750px) {
+
+        header{
+            h1{
+                font-size: 4em;
+            }
+        }
+
+        main{
+            h2{
+
+                font-size: 3em;
+
+            }
+
+            p{
+
+                font-size: 1.5em;
+
+            }
+        }
+        
+
+    }
+
+    @media (min-width:1024px) {
+
+        header{
+            h1{
+                font-size: 4em;
+            }
+        }
+
+        main{
+            h2{
+
+                font-size: 3em;
+
+            }
+
+            p{
+
+                font-size: 2em;
+
+            }
+        }
+        
+
+    }
+    
+
+
+}
+

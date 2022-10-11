@@ -1,0 +1,49 @@
+/*listen*/
+
+
+.listen {
+
+    margin-right: 10%;
+    margin-left: 10%;
+
+
+
+    header {
+        padding-top: 2em;
+        padding-bottom: 2em;
+        align-content: center;
+        display: flex;
+        flex-direction: column;
+
+        .music-display{
+            padding-right: 10em;
+            padding-left: 10em;
+        }
+    }
+
+    main {
+        
+        font-size: larger;
+        color: black;
+
+        h1 {
+            color: red;
+            font-size: 3em;
+            padding-top: 1em;
+            padding-bottom: 3em;
+        }
+
+        p {
+            margin-left: 1em;
+            margin-right: 1em;
+        }
+
+
+
+
+
+    }
+
+}
+
+/*listen*/

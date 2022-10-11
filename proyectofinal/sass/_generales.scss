@@ -1,0 +1,67 @@
+
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+footer{
+    font-size: small;
+}
+
+body{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    color: white;
+    background-color: black;
+}
+
+header{
+    font-size: large;
+    display: grid;
+    justify-content: center;
+}
+
+footer{
+    padding: 3em;
+    margin-top: 1.5em;
+    grid-area: footer;
+}
+
+.head{
+    grid-area: head;
+}
+
+.navs{
+    grid-area: navs;
+}
+
+.icono__nav{
+    width: 100px;
+}
+
+.navi{
+    grid-area: navi;
+}
+
+main{
+    grid-area: main;
+}
+
+footer{
+    grid-area: footer;
+}
+
+.grilla{
+    display: grid;
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;
+    gap: 20px;
+    grid-template-areas: 
+    " navs "
+    " head "
+    " main "
+    " footer "
+    " navi ";
+}
